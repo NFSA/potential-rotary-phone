@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "potential-rotary-phone"
+version = "0.1.0"
+description = ""
+authors = ["michael-james-smith <michael.smith@nfsa.gov.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.5"
+isort = "^5.13.2"
+pathlib = "^1.0.1"
+llvmlite = "^0.43.0"
+numba = "^0.60.0"
+whisperx = "3.1.6"
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+numpy = "1.26.4"
+ffmpeg-python = "^0.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+mypy = "^1.13.0"
+black = "^24.10.0"
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
